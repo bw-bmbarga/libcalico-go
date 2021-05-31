@@ -1,4 +1,4 @@
-module github.com/projectcalico/libcalico-go
+module github.com/bw-bmbarga/libcalico-go
 
 go 1.15
 
