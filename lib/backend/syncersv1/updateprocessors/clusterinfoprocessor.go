@@ -17,9 +17,9 @@ package updateprocessors
 import (
 	"reflect"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/watchersyncer"
 )
 
 // Create a new NewClusterInfoUpdateProcessor.

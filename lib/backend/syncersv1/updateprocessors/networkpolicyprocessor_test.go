@@ -26,13 +26,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/selector/parser"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	cnet "github.com/bw-bmbarga/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/numorstring"
+	"github.com/bw-bmbarga/libcalico-go/lib/selector/parser"
 )
 
 var _ = Describe("Test the NetworkPolicy update processor", func() {

@@ -31,11 +31,11 @@ import (
 
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/api"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	cerrors "github.com/bw-bmbarga/libcalico-go/lib/errors"
 )
 
 func NewWorkloadEndpointClient(c kubernetes.Interface) K8sResourceClient {

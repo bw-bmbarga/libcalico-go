@@ -15,7 +15,7 @@
 package namespace
 
 import (
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
 )
 
 const (

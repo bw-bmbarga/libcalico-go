@@ -15,12 +15,12 @@
 package felixsyncer
 
 import (
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
+	"github.com/bw-bmbarga/libcalico-go/lib/apiconfig"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/api"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/watchersyncer"
 )
 
 // New creates a new Felix v1 Syncer.

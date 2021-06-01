@@ -30,11 +30,11 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	capi "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/k8s/custom"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients/v1/k8s/resources"
+	capi "github.com/bw-bmbarga/libcalico-go/lib/apis/v1"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/errors"
+	"github.com/bw-bmbarga/libcalico-go/lib/upgrade/migrator/clients/v1/k8s/custom"
+	"github.com/bw-bmbarga/libcalico-go/lib/upgrade/migrator/clients/v1/k8s/resources"
 )
 
 type KubeClient struct {

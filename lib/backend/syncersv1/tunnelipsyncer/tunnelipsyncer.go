@@ -15,11 +15,11 @@
 package tunnelipsyncer
 
 import (
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/syncersv1/updateprocessors"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/api"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/syncersv1/updateprocessors"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/watchersyncer"
 )
 
 // New creates a new tunnel IP allocation v1 Syncer.  An optional node name may be supplied.  If set, the syncer only

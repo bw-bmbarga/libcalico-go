@@ -20,9 +20,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/api"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	cerrors "github.com/bw-bmbarga/libcalico-go/lib/errors"
 )
 
 // The watcherCache provides watcher/syncer support for a single key type in the

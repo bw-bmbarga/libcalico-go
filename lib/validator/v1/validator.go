@@ -24,15 +24,15 @@ import (
 	"gopkg.in/go-playground/validator.v9"
 	k8svalidation "k8s.io/apimachinery/pkg/util/validation"
 
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	calinet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/scope"
-	"github.com/projectcalico/libcalico-go/lib/selector"
-	"github.com/projectcalico/libcalico-go/lib/selector/tokenizer"
-	v3 "github.com/projectcalico/libcalico-go/lib/validator/v3"
+	api "github.com/bw-bmbarga/libcalico-go/lib/apis/v1"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/errors"
+	calinet "github.com/bw-bmbarga/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/numorstring"
+	"github.com/bw-bmbarga/libcalico-go/lib/scope"
+	"github.com/bw-bmbarga/libcalico-go/lib/selector"
+	"github.com/bw-bmbarga/libcalico-go/lib/selector/tokenizer"
+	v3 "github.com/bw-bmbarga/libcalico-go/lib/validator/v3"
 )
 
 var validate *validator.Validate

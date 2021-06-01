@@ -15,7 +15,7 @@
 package model_test
 
 import (
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

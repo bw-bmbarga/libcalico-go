@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/projectcalico/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/net"
 
 	log "github.com/sirupsen/logrus"
 )

@@ -28,9 +28,9 @@ import (
 	etcd "go.etcd.io/etcd/client"
 	"golang.org/x/net/context"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/hwm"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/api"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/hwm"
 )
 
 // defaultEtcdClusterID is default value that an etcd cluster uses if it

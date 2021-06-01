@@ -25,16 +25,16 @@ import (
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	v3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/clientv3"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	"github.com/projectcalico/libcalico-go/lib/testutils"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/converters"
-	"github.com/projectcalico/libcalico-go/lib/upgrade/migrator/clients"
+	"github.com/bw-bmbarga/libcalico-go/lib/apiconfig"
+	v3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/clientv3"
+	"github.com/bw-bmbarga/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/options"
+	"github.com/bw-bmbarga/libcalico-go/lib/testutils"
+	"github.com/bw-bmbarga/libcalico-go/lib/upgrade/converters"
+	"github.com/bw-bmbarga/libcalico-go/lib/upgrade/migrator/clients"
 )
 
 var _ = Describe("UT for checking the version for migration.", func() {

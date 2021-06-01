@@ -30,9 +30,9 @@ import (
 	"k8s.io/apimachinery/pkg/conversion"
 
 	"github.com/projectcalico/go-yaml-wrapper"
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	"github.com/bw-bmbarga/libcalico-go/lib/apiconfig"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/watch"
 )
 
 const ExpectNoNamespace = ""

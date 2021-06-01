@@ -24,16 +24,16 @@ import (
 	"github.com/google/uuid"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/resources"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/k8s/resources"
+	cerrors "github.com/bw-bmbarga/libcalico-go/lib/errors"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/names"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/names"
 
 	k8sapi "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

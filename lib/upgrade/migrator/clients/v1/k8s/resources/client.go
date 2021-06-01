@@ -15,7 +15,7 @@
 package resources
 
 import (
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
 )
 
 // K8sResourceClient is the interface to the k8s datastore for CRUD operations

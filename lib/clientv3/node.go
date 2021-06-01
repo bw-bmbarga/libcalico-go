@@ -21,14 +21,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/names"
-	"github.com/projectcalico/libcalico-go/lib/net"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	validator "github.com/projectcalico/libcalico-go/lib/validator/v3"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/errors"
+	"github.com/bw-bmbarga/libcalico-go/lib/names"
+	"github.com/bw-bmbarga/libcalico-go/lib/net"
+	cnet "github.com/bw-bmbarga/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/options"
+	validator "github.com/bw-bmbarga/libcalico-go/lib/validator/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/watch"
 )
 
 // NodeInterface has methods to work with Node resources.

@@ -29,11 +29,11 @@ import (
 	kwatch "k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/projectcalico/libcalico-go/lib/backend/api"
-	"github.com/projectcalico/libcalico-go/lib/backend/k8s/conversion"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/resources"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/api"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/k8s/conversion"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	cerrors "github.com/bw-bmbarga/libcalico-go/lib/errors"
+	"github.com/bw-bmbarga/libcalico-go/lib/resources"
 )
 
 func NewProfileClient(c *kubernetes.Clientset) K8sResourceClient {

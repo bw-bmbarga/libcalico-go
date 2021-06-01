@@ -1,4 +1,4 @@
-PACKAGE_NAME=github.com/projectcalico/libcalico-go
+PACKAGE_NAME=github.com/bw-bmbarga/libcalico-go
 GO_BUILD_VER=v0.51
 
 ORGANIZATION=projectcalico
@@ -88,7 +88,7 @@ $(BINDIR)/deepcopy-gen:
 		--v 1 --logtostderr \
 		--go-header-file "./docs/boilerplate.go.txt" \
 		--input-dirs "$(PACKAGE_NAME)/lib/upgrade/migrator/clients/v1/k8s/custom" \
-		--bounding-dirs "github.com/projectcalico/libcalico-go" \
+		--bounding-dirs "github.com/bw-bmbarga/libcalico-go" \
 		--output-file-base zz_generated.deepcopy'
 
 ./lib/apis/v3/zz_generated.deepcopy.go: $(APIS_SRCS) $(BINDIR)/deepcopy-gen
@@ -96,7 +96,7 @@ $(BINDIR)/deepcopy-gen:
 		--v 1 --logtostderr \
 		--go-header-file "./docs/boilerplate.go.txt" \
 		--input-dirs "$(PACKAGE_NAME)/lib/apis/v3" \
-		--bounding-dirs "github.com/projectcalico/libcalico-go" \
+		--bounding-dirs "github.com/bw-bmbarga/libcalico-go" \
 		--output-file-base zz_generated.deepcopy'
 
 # Generate OpenAPI spec

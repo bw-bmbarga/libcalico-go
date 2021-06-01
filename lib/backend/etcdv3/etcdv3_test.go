@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/libcalico-go/lib/apiconfig"
-	"github.com/projectcalico/libcalico-go/lib/backend/etcdv3"
+	"github.com/bw-bmbarga/libcalico-go/lib/apiconfig"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/etcdv3"
 )
 
 var (

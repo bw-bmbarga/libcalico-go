@@ -22,7 +22,7 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
+	"github.com/bw-bmbarga/libcalico-go/lib/numorstring"
 )
 
 func init() {

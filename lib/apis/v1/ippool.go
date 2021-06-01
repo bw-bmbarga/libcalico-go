@@ -17,9 +17,9 @@ package v1
 import (
 	"fmt"
 
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend/encap"
-	"github.com/projectcalico/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/encap"
+	"github.com/bw-bmbarga/libcalico-go/lib/net"
 )
 
 // IPPool contains the details of a Calico IP pool resource.

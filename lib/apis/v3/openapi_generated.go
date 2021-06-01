@@ -27,135 +27,135 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeer":                            schema_libcalico_go_lib_apis_v1_BGPPeer(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerList":                        schema_libcalico_go_lib_apis_v1_BGPPeerList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerMetadata":                    schema_libcalico_go_lib_apis_v1_BGPPeerMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerSpec":                        schema_libcalico_go_lib_apis_v1_BGPPeerSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfig":                    schema_libcalico_go_lib_apis_v1_CalicoAPIConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfigMetadata":            schema_libcalico_go_lib_apis_v1_CalicoAPIConfigMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfigSpec":                schema_libcalico_go_lib_apis_v1_CalicoAPIConfigSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.EndpointPort":                       schema_libcalico_go_lib_apis_v1_EndpointPort(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.EntityRule":                         schema_libcalico_go_lib_apis_v1_EntityRule(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.EtcdConfig":                         schema_libcalico_go_lib_apis_v1_EtcdConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpoint":                       schema_libcalico_go_lib_apis_v1_HostEndpoint(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointList":                   schema_libcalico_go_lib_apis_v1_HostEndpointList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointMetadata":               schema_libcalico_go_lib_apis_v1_HostEndpointMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointSpec":                   schema_libcalico_go_lib_apis_v1_HostEndpointSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.ICMPFields":                         schema_libcalico_go_lib_apis_v1_ICMPFields(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.IPIPConfiguration":                  schema_libcalico_go_lib_apis_v1_IPIPConfiguration(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.IPNAT":                              schema_libcalico_go_lib_apis_v1_IPNAT(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.IPPool":                             schema_libcalico_go_lib_apis_v1_IPPool(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolList":                         schema_libcalico_go_lib_apis_v1_IPPoolList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolMetadata":                     schema_libcalico_go_lib_apis_v1_IPPoolMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolSpec":                         schema_libcalico_go_lib_apis_v1_IPPoolSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.KubeConfig":                         schema_libcalico_go_lib_apis_v1_KubeConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.Node":                               schema_libcalico_go_lib_apis_v1_Node(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.NodeBGPSpec":                        schema_libcalico_go_lib_apis_v1_NodeBGPSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.NodeList":                           schema_libcalico_go_lib_apis_v1_NodeList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.NodeMetadata":                       schema_libcalico_go_lib_apis_v1_NodeMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.NodeSpec":                           schema_libcalico_go_lib_apis_v1_NodeSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.OrchRef":                            schema_libcalico_go_lib_apis_v1_OrchRef(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.Policy":                             schema_libcalico_go_lib_apis_v1_Policy(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.PolicyList":                         schema_libcalico_go_lib_apis_v1_PolicyList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.PolicyMetadata":                     schema_libcalico_go_lib_apis_v1_PolicyMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.PolicySpec":                         schema_libcalico_go_lib_apis_v1_PolicySpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.Profile":                            schema_libcalico_go_lib_apis_v1_Profile(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileList":                        schema_libcalico_go_lib_apis_v1_ProfileList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileMetadata":                    schema_libcalico_go_lib_apis_v1_ProfileMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileSpec":                        schema_libcalico_go_lib_apis_v1_ProfileSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.Rule":                               schema_libcalico_go_lib_apis_v1_Rule(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpoint":                   schema_libcalico_go_lib_apis_v1_WorkloadEndpoint(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointList":               schema_libcalico_go_lib_apis_v1_WorkloadEndpointList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointMetadata":           schema_libcalico_go_lib_apis_v1_WorkloadEndpointMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointSpec":               schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.AllocationAttribute":                schema_libcalico_go_lib_apis_v3_AllocationAttribute(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.AutoHostEndpointConfig":             schema_libcalico_go_lib_apis_v3_AutoHostEndpointConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfiguration":                   schema_libcalico_go_lib_apis_v3_BGPConfiguration(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfigurationList":               schema_libcalico_go_lib_apis_v3_BGPConfigurationList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfigurationSpec":               schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPassword":                        schema_libcalico_go_lib_apis_v3_BGPPassword(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeer":                            schema_libcalico_go_lib_apis_v3_BGPPeer(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeerList":                        schema_libcalico_go_lib_apis_v3_BGPPeerList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeerSpec":                        schema_libcalico_go_lib_apis_v3_BGPPeerSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinity":                      schema_libcalico_go_lib_apis_v3_BlockAffinity(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinityList":                  schema_libcalico_go_lib_apis_v3_BlockAffinityList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinitySpec":                  schema_libcalico_go_lib_apis_v3_BlockAffinitySpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformation":                 schema_libcalico_go_lib_apis_v3_ClusterInformation(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformationList":             schema_libcalico_go_lib_apis_v3_ClusterInformationList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformationSpec":             schema_libcalico_go_lib_apis_v3_ClusterInformationSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.Community":                          schema_libcalico_go_lib_apis_v3_Community(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ControllersConfig":                  schema_libcalico_go_lib_apis_v3_ControllersConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.EndpointPort":                       schema_libcalico_go_lib_apis_v3_EndpointPort(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.EntityRule":                         schema_libcalico_go_lib_apis_v3_EntityRule(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfiguration":                 schema_libcalico_go_lib_apis_v3_FelixConfiguration(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfigurationList":             schema_libcalico_go_lib_apis_v3_FelixConfigurationList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfigurationSpec":             schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicy":                schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicy(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicyList":            schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicyList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicySpec":            schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicySpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSet":                   schema_libcalico_go_lib_apis_v3_GlobalNetworkSet(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSetList":               schema_libcalico_go_lib_apis_v3_GlobalNetworkSetList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSetSpec":               schema_libcalico_go_lib_apis_v3_GlobalNetworkSetSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.HTTPMatch":                          schema_libcalico_go_lib_apis_v3_HTTPMatch(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.HTTPPath":                           schema_libcalico_go_lib_apis_v3_HTTPPath(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpoint":                       schema_libcalico_go_lib_apis_v3_HostEndpoint(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpointList":                   schema_libcalico_go_lib_apis_v3_HostEndpointList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpointSpec":                   schema_libcalico_go_lib_apis_v3_HostEndpointSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ICMPFields":                         schema_libcalico_go_lib_apis_v3_ICMPFields(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlock":                          schema_libcalico_go_lib_apis_v3_IPAMBlock(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlockList":                      schema_libcalico_go_lib_apis_v3_IPAMBlockList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlockSpec":                      schema_libcalico_go_lib_apis_v3_IPAMBlockSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfig":                         schema_libcalico_go_lib_apis_v3_IPAMConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfigList":                     schema_libcalico_go_lib_apis_v3_IPAMConfigList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfigSpec":                     schema_libcalico_go_lib_apis_v3_IPAMConfigSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandle":                         schema_libcalico_go_lib_apis_v3_IPAMHandle(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandleList":                     schema_libcalico_go_lib_apis_v3_IPAMHandleList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandleSpec":                     schema_libcalico_go_lib_apis_v3_IPAMHandleSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPNAT":                              schema_libcalico_go_lib_apis_v3_IPNAT(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPPool":                             schema_libcalico_go_lib_apis_v3_IPPool(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPPoolList":                         schema_libcalico_go_lib_apis_v3_IPPoolList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.IPPoolSpec":                         schema_libcalico_go_lib_apis_v3_IPPoolSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfiguration":       schema_libcalico_go_lib_apis_v3_KubeControllersConfiguration(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationList":   schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec":   schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationStatus": schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationStatus(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NamespaceControllerConfig":          schema_libcalico_go_lib_apis_v3_NamespaceControllerConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicy":                      schema_libcalico_go_lib_apis_v3_NetworkPolicy(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicyList":                  schema_libcalico_go_lib_apis_v3_NetworkPolicyList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicySpec":                  schema_libcalico_go_lib_apis_v3_NetworkPolicySpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSet":                         schema_libcalico_go_lib_apis_v3_NetworkSet(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSetList":                     schema_libcalico_go_lib_apis_v3_NetworkSetList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSetSpec":                     schema_libcalico_go_lib_apis_v3_NetworkSetSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.Node":                               schema_libcalico_go_lib_apis_v3_Node(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeAddress":                        schema_libcalico_go_lib_apis_v3_NodeAddress(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeBGPSpec":                        schema_libcalico_go_lib_apis_v3_NodeBGPSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeControllerConfig":               schema_libcalico_go_lib_apis_v3_NodeControllerConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeList":                           schema_libcalico_go_lib_apis_v3_NodeList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeSpec":                           schema_libcalico_go_lib_apis_v3_NodeSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeStatus":                         schema_libcalico_go_lib_apis_v3_NodeStatus(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeWireguardSpec":                  schema_libcalico_go_lib_apis_v3_NodeWireguardSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.OrchRef":                            schema_libcalico_go_lib_apis_v3_OrchRef(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.PolicyControllerConfig":             schema_libcalico_go_lib_apis_v3_PolicyControllerConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.PrefixAdvertisement":                schema_libcalico_go_lib_apis_v3_PrefixAdvertisement(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.Profile":                            schema_libcalico_go_lib_apis_v3_Profile(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ProfileList":                        schema_libcalico_go_lib_apis_v3_ProfileList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ProfileSpec":                        schema_libcalico_go_lib_apis_v3_ProfileSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ProtoPort":                          schema_libcalico_go_lib_apis_v3_ProtoPort(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.RouteTableRange":                    schema_libcalico_go_lib_apis_v3_RouteTableRange(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.Rule":                               schema_libcalico_go_lib_apis_v3_Rule(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.RuleMetadata":                       schema_libcalico_go_lib_apis_v3_RuleMetadata(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceAccountControllerConfig":     schema_libcalico_go_lib_apis_v3_ServiceAccountControllerConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceAccountMatch":                schema_libcalico_go_lib_apis_v3_ServiceAccountMatch(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceClusterIPBlock":              schema_libcalico_go_lib_apis_v3_ServiceClusterIPBlock(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceExternalIPBlock":             schema_libcalico_go_lib_apis_v3_ServiceExternalIPBlock(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceLoadBalancerIPBlock":         schema_libcalico_go_lib_apis_v3_ServiceLoadBalancerIPBlock(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpoint":                   schema_libcalico_go_lib_apis_v3_WorkloadEndpoint(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointControllerConfig":   schema_libcalico_go_lib_apis_v3_WorkloadEndpointControllerConfig(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointList":               schema_libcalico_go_lib_apis_v3_WorkloadEndpointList(ref),
-		"github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointSpec":               schema_libcalico_go_lib_apis_v3_WorkloadEndpointSpec(ref),
-		"github.com/projectcalico/libcalico-go/lib/numorstring.Port":                           schema_projectcalico_libcalico_go_lib_numorstring_Port(ref),
-		"github.com/projectcalico/libcalico-go/lib/numorstring.Protocol":                       schema_projectcalico_libcalico_go_lib_numorstring_Protocol(ref),
-		"github.com/projectcalico/libcalico-go/lib/numorstring.Uint8OrString":                  schema_projectcalico_libcalico_go_lib_numorstring_Uint8OrString(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeer":                            schema_libcalico_go_lib_apis_v1_BGPPeer(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerList":                        schema_libcalico_go_lib_apis_v1_BGPPeerList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerMetadata":                    schema_libcalico_go_lib_apis_v1_BGPPeerMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerSpec":                        schema_libcalico_go_lib_apis_v1_BGPPeerSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfig":                    schema_libcalico_go_lib_apis_v1_CalicoAPIConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfigMetadata":            schema_libcalico_go_lib_apis_v1_CalicoAPIConfigMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfigSpec":                schema_libcalico_go_lib_apis_v1_CalicoAPIConfigSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EndpointPort":                       schema_libcalico_go_lib_apis_v1_EndpointPort(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EntityRule":                         schema_libcalico_go_lib_apis_v1_EntityRule(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EtcdConfig":                         schema_libcalico_go_lib_apis_v1_EtcdConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpoint":                       schema_libcalico_go_lib_apis_v1_HostEndpoint(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointList":                   schema_libcalico_go_lib_apis_v1_HostEndpointList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointMetadata":               schema_libcalico_go_lib_apis_v1_HostEndpointMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointSpec":                   schema_libcalico_go_lib_apis_v1_HostEndpointSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ICMPFields":                         schema_libcalico_go_lib_apis_v1_ICMPFields(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPIPConfiguration":                  schema_libcalico_go_lib_apis_v1_IPIPConfiguration(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPNAT":                              schema_libcalico_go_lib_apis_v1_IPNAT(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPool":                             schema_libcalico_go_lib_apis_v1_IPPool(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolList":                         schema_libcalico_go_lib_apis_v1_IPPoolList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolMetadata":                     schema_libcalico_go_lib_apis_v1_IPPoolMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolSpec":                         schema_libcalico_go_lib_apis_v1_IPPoolSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.KubeConfig":                         schema_libcalico_go_lib_apis_v1_KubeConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Node":                               schema_libcalico_go_lib_apis_v1_Node(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeBGPSpec":                        schema_libcalico_go_lib_apis_v1_NodeBGPSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeList":                           schema_libcalico_go_lib_apis_v1_NodeList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeMetadata":                       schema_libcalico_go_lib_apis_v1_NodeMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeSpec":                           schema_libcalico_go_lib_apis_v1_NodeSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.OrchRef":                            schema_libcalico_go_lib_apis_v1_OrchRef(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Policy":                             schema_libcalico_go_lib_apis_v1_Policy(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicyList":                         schema_libcalico_go_lib_apis_v1_PolicyList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicyMetadata":                     schema_libcalico_go_lib_apis_v1_PolicyMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicySpec":                         schema_libcalico_go_lib_apis_v1_PolicySpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Profile":                            schema_libcalico_go_lib_apis_v1_Profile(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileList":                        schema_libcalico_go_lib_apis_v1_ProfileList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileMetadata":                    schema_libcalico_go_lib_apis_v1_ProfileMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileSpec":                        schema_libcalico_go_lib_apis_v1_ProfileSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule":                               schema_libcalico_go_lib_apis_v1_Rule(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpoint":                   schema_libcalico_go_lib_apis_v1_WorkloadEndpoint(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointList":               schema_libcalico_go_lib_apis_v1_WorkloadEndpointList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointMetadata":           schema_libcalico_go_lib_apis_v1_WorkloadEndpointMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointSpec":               schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.AllocationAttribute":                schema_libcalico_go_lib_apis_v3_AllocationAttribute(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.AutoHostEndpointConfig":             schema_libcalico_go_lib_apis_v3_AutoHostEndpointConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfiguration":                   schema_libcalico_go_lib_apis_v3_BGPConfiguration(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfigurationList":               schema_libcalico_go_lib_apis_v3_BGPConfigurationList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfigurationSpec":               schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPassword":                        schema_libcalico_go_lib_apis_v3_BGPPassword(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeer":                            schema_libcalico_go_lib_apis_v3_BGPPeer(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeerList":                        schema_libcalico_go_lib_apis_v3_BGPPeerList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeerSpec":                        schema_libcalico_go_lib_apis_v3_BGPPeerSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinity":                      schema_libcalico_go_lib_apis_v3_BlockAffinity(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinityList":                  schema_libcalico_go_lib_apis_v3_BlockAffinityList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinitySpec":                  schema_libcalico_go_lib_apis_v3_BlockAffinitySpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformation":                 schema_libcalico_go_lib_apis_v3_ClusterInformation(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformationList":             schema_libcalico_go_lib_apis_v3_ClusterInformationList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformationSpec":             schema_libcalico_go_lib_apis_v3_ClusterInformationSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Community":                          schema_libcalico_go_lib_apis_v3_Community(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ControllersConfig":                  schema_libcalico_go_lib_apis_v3_ControllersConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EndpointPort":                       schema_libcalico_go_lib_apis_v3_EndpointPort(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EntityRule":                         schema_libcalico_go_lib_apis_v3_EntityRule(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfiguration":                 schema_libcalico_go_lib_apis_v3_FelixConfiguration(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfigurationList":             schema_libcalico_go_lib_apis_v3_FelixConfigurationList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfigurationSpec":             schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicy":                schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicy(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicyList":            schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicyList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicySpec":            schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicySpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSet":                   schema_libcalico_go_lib_apis_v3_GlobalNetworkSet(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSetList":               schema_libcalico_go_lib_apis_v3_GlobalNetworkSetList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSetSpec":               schema_libcalico_go_lib_apis_v3_GlobalNetworkSetSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HTTPMatch":                          schema_libcalico_go_lib_apis_v3_HTTPMatch(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HTTPPath":                           schema_libcalico_go_lib_apis_v3_HTTPPath(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpoint":                       schema_libcalico_go_lib_apis_v3_HostEndpoint(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpointList":                   schema_libcalico_go_lib_apis_v3_HostEndpointList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpointSpec":                   schema_libcalico_go_lib_apis_v3_HostEndpointSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ICMPFields":                         schema_libcalico_go_lib_apis_v3_ICMPFields(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlock":                          schema_libcalico_go_lib_apis_v3_IPAMBlock(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlockList":                      schema_libcalico_go_lib_apis_v3_IPAMBlockList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlockSpec":                      schema_libcalico_go_lib_apis_v3_IPAMBlockSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfig":                         schema_libcalico_go_lib_apis_v3_IPAMConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfigList":                     schema_libcalico_go_lib_apis_v3_IPAMConfigList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfigSpec":                     schema_libcalico_go_lib_apis_v3_IPAMConfigSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandle":                         schema_libcalico_go_lib_apis_v3_IPAMHandle(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandleList":                     schema_libcalico_go_lib_apis_v3_IPAMHandleList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandleSpec":                     schema_libcalico_go_lib_apis_v3_IPAMHandleSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPNAT":                              schema_libcalico_go_lib_apis_v3_IPNAT(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPool":                             schema_libcalico_go_lib_apis_v3_IPPool(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPoolList":                         schema_libcalico_go_lib_apis_v3_IPPoolList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPoolSpec":                         schema_libcalico_go_lib_apis_v3_IPPoolSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfiguration":       schema_libcalico_go_lib_apis_v3_KubeControllersConfiguration(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationList":   schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec":   schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationStatus": schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationStatus(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NamespaceControllerConfig":          schema_libcalico_go_lib_apis_v3_NamespaceControllerConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicy":                      schema_libcalico_go_lib_apis_v3_NetworkPolicy(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicyList":                  schema_libcalico_go_lib_apis_v3_NetworkPolicyList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicySpec":                  schema_libcalico_go_lib_apis_v3_NetworkPolicySpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSet":                         schema_libcalico_go_lib_apis_v3_NetworkSet(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSetList":                     schema_libcalico_go_lib_apis_v3_NetworkSetList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSetSpec":                     schema_libcalico_go_lib_apis_v3_NetworkSetSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Node":                               schema_libcalico_go_lib_apis_v3_Node(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeAddress":                        schema_libcalico_go_lib_apis_v3_NodeAddress(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeBGPSpec":                        schema_libcalico_go_lib_apis_v3_NodeBGPSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeControllerConfig":               schema_libcalico_go_lib_apis_v3_NodeControllerConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeList":                           schema_libcalico_go_lib_apis_v3_NodeList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeSpec":                           schema_libcalico_go_lib_apis_v3_NodeSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeStatus":                         schema_libcalico_go_lib_apis_v3_NodeStatus(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeWireguardSpec":                  schema_libcalico_go_lib_apis_v3_NodeWireguardSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.OrchRef":                            schema_libcalico_go_lib_apis_v3_OrchRef(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.PolicyControllerConfig":             schema_libcalico_go_lib_apis_v3_PolicyControllerConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.PrefixAdvertisement":                schema_libcalico_go_lib_apis_v3_PrefixAdvertisement(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Profile":                            schema_libcalico_go_lib_apis_v3_Profile(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProfileList":                        schema_libcalico_go_lib_apis_v3_ProfileList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProfileSpec":                        schema_libcalico_go_lib_apis_v3_ProfileSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProtoPort":                          schema_libcalico_go_lib_apis_v3_ProtoPort(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.RouteTableRange":                    schema_libcalico_go_lib_apis_v3_RouteTableRange(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule":                               schema_libcalico_go_lib_apis_v3_Rule(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.RuleMetadata":                       schema_libcalico_go_lib_apis_v3_RuleMetadata(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceAccountControllerConfig":     schema_libcalico_go_lib_apis_v3_ServiceAccountControllerConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceAccountMatch":                schema_libcalico_go_lib_apis_v3_ServiceAccountMatch(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceClusterIPBlock":              schema_libcalico_go_lib_apis_v3_ServiceClusterIPBlock(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceExternalIPBlock":             schema_libcalico_go_lib_apis_v3_ServiceExternalIPBlock(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceLoadBalancerIPBlock":         schema_libcalico_go_lib_apis_v3_ServiceLoadBalancerIPBlock(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpoint":                   schema_libcalico_go_lib_apis_v3_WorkloadEndpoint(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointControllerConfig":   schema_libcalico_go_lib_apis_v3_WorkloadEndpointControllerConfig(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointList":               schema_libcalico_go_lib_apis_v3_WorkloadEndpointList(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointSpec":               schema_libcalico_go_lib_apis_v3_WorkloadEndpointSpec(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port":                           schema_projectcalico_libcalico_go_lib_numorstring_Port(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol":                       schema_projectcalico_libcalico_go_lib_numorstring_Protocol(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Uint8OrString":                  schema_projectcalico_libcalico_go_lib_numorstring_Uint8OrString(ref),
 	}
 }
 
@@ -169,21 +169,21 @@ func schema_libcalico_go_lib_apis_v1_BGPPeer(ref common.ReferenceCallback) commo
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Metadata for a BGPPeer.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerMetadata"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification for a BGPPeer.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerSpec"),
 						},
 					},
 				},
@@ -191,7 +191,7 @@ func schema_libcalico_go_lib_apis_v1_BGPPeer(ref common.ReferenceCallback) commo
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeerSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeerSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -205,13 +205,13 @@ func schema_libcalico_go_lib_apis_v1_BGPPeerList(ref common.ReferenceCallback) c
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -221,7 +221,7 @@ func schema_libcalico_go_lib_apis_v1_BGPPeerList(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeer"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeer"),
 									},
 								},
 							},
@@ -232,7 +232,7 @@ func schema_libcalico_go_lib_apis_v1_BGPPeerList(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.BGPPeer", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.BGPPeer", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -246,7 +246,7 @@ func schema_libcalico_go_lib_apis_v1_BGPPeerMetadata(ref common.ReferenceCallbac
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"scope": {
@@ -268,7 +268,7 @@ func schema_libcalico_go_lib_apis_v1_BGPPeerMetadata(ref common.ReferenceCallbac
 						SchemaProps: spec.SchemaProps{
 							Description: "The IP address of the peer.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IP"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IP"),
 						},
 					},
 				},
@@ -276,7 +276,7 @@ func schema_libcalico_go_lib_apis_v1_BGPPeerMetadata(ref common.ReferenceCallbac
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata", "github.com/projectcalico/libcalico-go/lib/net.IP"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata", "github.com/bw-bmbarga/libcalico-go/lib/net.IP"},
 	}
 }
 
@@ -312,19 +312,19 @@ func schema_libcalico_go_lib_apis_v1_CalicoAPIConfig(ref common.ReferenceCallbac
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfigMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfigMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfigSpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfigSpec"),
 						},
 					},
 				},
@@ -332,7 +332,7 @@ func schema_libcalico_go_lib_apis_v1_CalicoAPIConfig(ref common.ReferenceCallbac
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfigMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.CalicoAPIConfigSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfigMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.CalicoAPIConfigSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -346,7 +346,7 @@ func schema_libcalico_go_lib_apis_v1_CalicoAPIConfigMetadata(ref common.Referenc
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 				},
@@ -354,7 +354,7 @@ func schema_libcalico_go_lib_apis_v1_CalicoAPIConfigMetadata(ref common.Referenc
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
 	}
 }
 
@@ -376,14 +376,14 @@ func schema_libcalico_go_lib_apis_v1_CalicoAPIConfigSpec(ref common.ReferenceCal
 						SchemaProps: spec.SchemaProps{
 							Description: "Inline the ectd config fields",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.EtcdConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EtcdConfig"),
 						},
 					},
 					"KubeConfig": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Inline the k8s config fields.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.KubeConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.KubeConfig"),
 						},
 					},
 				},
@@ -391,7 +391,7 @@ func schema_libcalico_go_lib_apis_v1_CalicoAPIConfigSpec(ref common.ReferenceCal
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.EtcdConfig", "github.com/projectcalico/libcalico-go/lib/apis/v1.KubeConfig"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EtcdConfig", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.KubeConfig"},
 	}
 }
 
@@ -411,7 +411,7 @@ func schema_libcalico_go_lib_apis_v1_EndpointPort(ref common.ReferenceCallback) 
 					"protocol": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"),
 						},
 					},
 					"port": {
@@ -426,7 +426,7 @@ func schema_libcalico_go_lib_apis_v1_EndpointPort(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"},
+			"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"},
 	}
 }
 
@@ -447,7 +447,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 					"net": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Net is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) IP addresses in the given subnet. Deprecated: superseded by the Nets field.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 						},
 					},
 					"nets": {
@@ -457,7 +457,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+										Ref: ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 									},
 								},
 							},
@@ -478,7 +478,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Port"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"),
 									},
 								},
 							},
@@ -494,7 +494,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 					"notNet": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NotNet is an optional field that restricts the rule to only apply to traffic that does not originate from (or terminate at) an IP address in the given subnet. Deprecated: superseded by NotNets.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 						},
 					},
 					"notNets": {
@@ -504,7 +504,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 							Items: &spec.SchemaOrArray{
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
-										Ref: ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+										Ref: ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 									},
 								},
 							},
@@ -525,7 +525,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Port"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"),
 									},
 								},
 							},
@@ -535,7 +535,7 @@ func schema_libcalico_go_lib_apis_v1_EntityRule(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/net.IPNet", "github.com/projectcalico/libcalico-go/lib/numorstring.Port"},
+			"github.com/bw-bmbarga/libcalico-go/lib/net.IPNet", "github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"},
 	}
 }
 
@@ -625,19 +625,19 @@ func schema_libcalico_go_lib_apis_v1_HostEndpoint(ref common.ReferenceCallback) 
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointSpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointSpec"),
 						},
 					},
 				},
@@ -645,7 +645,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpoint(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpointSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpointSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -659,13 +659,13 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointList(ref common.ReferenceCallba
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -675,7 +675,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointList(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpoint"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpoint"),
 									},
 								},
 							},
@@ -686,7 +686,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointList(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.HostEndpoint", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.HostEndpoint", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -700,7 +700,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointMetadata(ref common.ReferenceCa
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"name": {
@@ -738,7 +738,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointMetadata(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
 	}
 }
 
@@ -764,7 +764,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointSpec(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/net.IP"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/net.IP"),
 									},
 								},
 							},
@@ -793,7 +793,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointSpec(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.EndpointPort"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EndpointPort"),
 									},
 								},
 							},
@@ -803,7 +803,7 @@ func schema_libcalico_go_lib_apis_v1_HostEndpointSpec(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.EndpointPort", "github.com/projectcalico/libcalico-go/lib/net.IP"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EndpointPort", "github.com/bw-bmbarga/libcalico-go/lib/net.IP"},
 	}
 }
 
@@ -871,14 +871,14 @@ func schema_libcalico_go_lib_apis_v1_IPNAT(ref common.ReferenceCallback) common.
 						SchemaProps: spec.SchemaProps{
 							Description: "The internal IP address which must be associated with the owning endpoint via the configured IPNetworks for the endpoint.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IP"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IP"),
 						},
 					},
 					"externalIP": {
 						SchemaProps: spec.SchemaProps{
 							Description: "The external IP address.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IP"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IP"),
 						},
 					},
 				},
@@ -886,7 +886,7 @@ func schema_libcalico_go_lib_apis_v1_IPNAT(ref common.ReferenceCallback) common.
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/net.IP"},
+			"github.com/bw-bmbarga/libcalico-go/lib/net.IP"},
 	}
 }
 
@@ -900,19 +900,19 @@ func schema_libcalico_go_lib_apis_v1_IPPool(ref common.ReferenceCallback) common
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolSpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolSpec"),
 						},
 					},
 				},
@@ -920,7 +920,7 @@ func schema_libcalico_go_lib_apis_v1_IPPool(ref common.ReferenceCallback) common
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.IPPoolSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPoolSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -934,13 +934,13 @@ func schema_libcalico_go_lib_apis_v1_IPPoolList(ref common.ReferenceCallback) co
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -950,7 +950,7 @@ func schema_libcalico_go_lib_apis_v1_IPPoolList(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.IPPool"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPool"),
 									},
 								},
 							},
@@ -961,7 +961,7 @@ func schema_libcalico_go_lib_apis_v1_IPPoolList(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.IPPool", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPPool", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -975,13 +975,13 @@ func schema_libcalico_go_lib_apis_v1_IPPoolMetadata(ref common.ReferenceCallback
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"cidr": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 						},
 					},
 				},
@@ -989,7 +989,7 @@ func schema_libcalico_go_lib_apis_v1_IPPoolMetadata(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata", "github.com/projectcalico/libcalico-go/lib/net.IPNet"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata", "github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"},
 	}
 }
 
@@ -1003,7 +1003,7 @@ func schema_libcalico_go_lib_apis_v1_IPPoolSpec(ref common.ReferenceCallback) co
 					"ipip": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Contains configuration for ipip tunneling for this pool. If not specified, then ipip tunneling is disabled for this pool.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.IPIPConfiguration"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPIPConfiguration"),
 						},
 					},
 					"nat-outgoing": {
@@ -1024,7 +1024,7 @@ func schema_libcalico_go_lib_apis_v1_IPPoolSpec(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.IPIPConfiguration"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPIPConfiguration"},
 	}
 }
 
@@ -1107,19 +1107,19 @@ func schema_libcalico_go_lib_apis_v1_Node(ref common.ReferenceCallback) common.O
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.NodeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.NodeSpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeSpec"),
 						},
 					},
 				},
@@ -1127,7 +1127,7 @@ func schema_libcalico_go_lib_apis_v1_Node(ref common.ReferenceCallback) common.O
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.NodeMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.NodeSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1148,20 +1148,20 @@ func schema_libcalico_go_lib_apis_v1_NodeBGPSpec(ref common.ReferenceCallback) c
 					"ipv4Address": {
 						SchemaProps: spec.SchemaProps{
 							Description: "IPv4Address is the IPv4 address and network of this node.  At least one of the IPv4 and IPv6 addresses should be specified.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 						},
 					},
 					"ipv6Address": {
 						SchemaProps: spec.SchemaProps{
 							Description: "IPv6Address is the IPv6 address and network of this node.  At least one of the IPv4 and IPv6 addresses should be specified.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/net.IPNet"},
+			"github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"},
 	}
 }
 
@@ -1175,13 +1175,13 @@ func schema_libcalico_go_lib_apis_v1_NodeList(ref common.ReferenceCallback) comm
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -1191,7 +1191,7 @@ func schema_libcalico_go_lib_apis_v1_NodeList(ref common.ReferenceCallback) comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Node"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Node"),
 									},
 								},
 							},
@@ -1202,7 +1202,7 @@ func schema_libcalico_go_lib_apis_v1_NodeList(ref common.ReferenceCallback) comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.Node", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Node", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1216,7 +1216,7 @@ func schema_libcalico_go_lib_apis_v1_NodeMetadata(ref common.ReferenceCallback) 
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"name": {
@@ -1231,7 +1231,7 @@ func schema_libcalico_go_lib_apis_v1_NodeMetadata(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
 	}
 }
 
@@ -1245,7 +1245,7 @@ func schema_libcalico_go_lib_apis_v1_NodeSpec(ref common.ReferenceCallback) comm
 					"bgp": {
 						SchemaProps: spec.SchemaProps{
 							Description: "BGP configuration for this node.  If this omitted, the Calico node will be run in policy-only mode.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.NodeBGPSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeBGPSpec"),
 						},
 					},
 					"orchRefs": {
@@ -1256,7 +1256,7 @@ func schema_libcalico_go_lib_apis_v1_NodeSpec(ref common.ReferenceCallback) comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.OrchRef"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.OrchRef"),
 									},
 								},
 							},
@@ -1266,7 +1266,7 @@ func schema_libcalico_go_lib_apis_v1_NodeSpec(ref common.ReferenceCallback) comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.NodeBGPSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1.OrchRef"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.NodeBGPSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.OrchRef"},
 	}
 }
 
@@ -1309,19 +1309,19 @@ func schema_libcalico_go_lib_apis_v1_Policy(ref common.ReferenceCallback) common
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.PolicyMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicyMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.PolicySpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicySpec"),
 						},
 					},
 				},
@@ -1329,7 +1329,7 @@ func schema_libcalico_go_lib_apis_v1_Policy(ref common.ReferenceCallback) common
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.PolicyMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.PolicySpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicyMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.PolicySpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1343,13 +1343,13 @@ func schema_libcalico_go_lib_apis_v1_PolicyList(ref common.ReferenceCallback) co
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -1359,7 +1359,7 @@ func schema_libcalico_go_lib_apis_v1_PolicyList(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Policy"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Policy"),
 									},
 								},
 							},
@@ -1370,7 +1370,7 @@ func schema_libcalico_go_lib_apis_v1_PolicyList(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.Policy", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Policy", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1384,7 +1384,7 @@ func schema_libcalico_go_lib_apis_v1_PolicyMetadata(ref common.ReferenceCallback
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"name": {
@@ -1415,7 +1415,7 @@ func schema_libcalico_go_lib_apis_v1_PolicyMetadata(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
 	}
 }
 
@@ -1441,7 +1441,7 @@ func schema_libcalico_go_lib_apis_v1_PolicySpec(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule"),
 									},
 								},
 							},
@@ -1455,7 +1455,7 @@ func schema_libcalico_go_lib_apis_v1_PolicySpec(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule"),
 									},
 								},
 							},
@@ -1503,7 +1503,7 @@ func schema_libcalico_go_lib_apis_v1_PolicySpec(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.Rule"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule"},
 	}
 }
 
@@ -1517,19 +1517,19 @@ func schema_libcalico_go_lib_apis_v1_Profile(ref common.ReferenceCallback) commo
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileSpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileSpec"),
 						},
 					},
 				},
@@ -1537,7 +1537,7 @@ func schema_libcalico_go_lib_apis_v1_Profile(ref common.ReferenceCallback) commo
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.ProfileSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ProfileSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1551,13 +1551,13 @@ func schema_libcalico_go_lib_apis_v1_ProfileList(ref common.ReferenceCallback) c
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -1567,7 +1567,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileList(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Profile"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Profile"),
 									},
 								},
 							},
@@ -1578,7 +1578,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileList(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.Profile", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Profile", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1592,7 +1592,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileMetadata(ref common.ReferenceCallbac
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"name": {
@@ -1638,7 +1638,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileMetadata(ref common.ReferenceCallbac
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
 	}
 }
 
@@ -1657,7 +1657,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileSpec(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule"),
 									},
 								},
 							},
@@ -1671,7 +1671,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileSpec(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule"),
 									},
 								},
 							},
@@ -1681,7 +1681,7 @@ func schema_libcalico_go_lib_apis_v1_ProfileSpec(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.Rule"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.Rule"},
 	}
 }
 
@@ -1709,39 +1709,39 @@ func schema_libcalico_go_lib_apis_v1_Rule(ref common.ReferenceCallback) common.O
 					"protocol": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Protocol is an optional field that restricts the rule to only apply to traffic of a specific IP protocol. Required if any of the EntityRules contain Ports (because ports only apply to certain protocols).\n\nMust be one of these string values: \"tcp\", \"udp\", \"icmp\", \"icmpv6\", \"sctp\", \"udplite\" or an integer in the range 1-255.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"),
 						},
 					},
 					"icmp": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ICMP is an optional field that restricts the rule to apply to a specific type and code of ICMP traffic.  This should only be specified if the Protocol field is set to \"icmp\" or \"icmpv6\".",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.ICMPFields"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ICMPFields"),
 						},
 					},
 					"notProtocol": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NotProtocol is the negated version of the Protocol field.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"),
 						},
 					},
 					"notICMP": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NotICMP is the negated version of the ICMP field.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.ICMPFields"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ICMPFields"),
 						},
 					},
 					"source": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Source contains the match criteria that apply to source entity.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.EntityRule"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EntityRule"),
 						},
 					},
 					"destination": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Destination contains the match criteria that apply to destination entity.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.EntityRule"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EntityRule"),
 						},
 					},
 				},
@@ -1749,7 +1749,7 @@ func schema_libcalico_go_lib_apis_v1_Rule(ref common.ReferenceCallback) common.O
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.EntityRule", "github.com/projectcalico/libcalico-go/lib/apis/v1.ICMPFields", "github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EntityRule", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.ICMPFields", "github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"},
 	}
 }
 
@@ -1762,19 +1762,19 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpoint(ref common.ReferenceCallba
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointMetadata"),
 						},
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointSpec"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointSpec"),
 						},
 					},
 				},
@@ -1782,7 +1782,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpoint(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpointSpec", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpointSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1796,13 +1796,13 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointList(ref common.ReferenceCa
 					"TypeMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata"),
 						},
 					},
 					"items": {
@@ -1812,7 +1812,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointList(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpoint"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpoint"),
 									},
 								},
 							},
@@ -1823,7 +1823,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointList(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.WorkloadEndpoint", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.WorkloadEndpoint", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ListMetadata", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.TypeMetadata"},
 	}
 }
 
@@ -1837,7 +1837,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointMetadata(ref common.Referen
 					"ObjectMetadata": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"),
 						},
 					},
 					"name": {
@@ -1896,7 +1896,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointMetadata(ref common.Referen
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned.ObjectMetadata"},
 	}
 }
 
@@ -1915,7 +1915,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/net.IPNet"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/net.IPNet"),
 									},
 								},
 							},
@@ -1929,7 +1929,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.IPNAT"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPNAT"),
 									},
 								},
 							},
@@ -1938,13 +1938,13 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref common.ReferenceCa
 					"ipv4Gateway": {
 						SchemaProps: spec.SchemaProps{
 							Description: "IPv4Gateway is the gateway IPv4 address for traffic from the workload.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IP"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IP"),
 						},
 					},
 					"ipv6Gateway": {
 						SchemaProps: spec.SchemaProps{
 							Description: "IPv6Gateway is the gateway IPv6 address for traffic from the workload.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.IP"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.IP"),
 						},
 					},
 					"profiles": {
@@ -1972,7 +1972,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref common.ReferenceCa
 					"mac": {
 						SchemaProps: spec.SchemaProps{
 							Description: "MAC is the MAC address of the endpoint interface.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/net.MAC"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/net.MAC"),
 						},
 					},
 					"ports": {
@@ -1983,7 +1983,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v1.EndpointPort"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EndpointPort"),
 									},
 								},
 							},
@@ -1993,7 +1993,7 @@ func schema_libcalico_go_lib_apis_v1_WorkloadEndpointSpec(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.EndpointPort", "github.com/projectcalico/libcalico-go/lib/apis/v1.IPNAT", "github.com/projectcalico/libcalico-go/lib/net.IP", "github.com/projectcalico/libcalico-go/lib/net.IPNet", "github.com/projectcalico/libcalico-go/lib/net.MAC"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.EndpointPort", "github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPNAT", "github.com/bw-bmbarga/libcalico-go/lib/net.IP", "github.com/bw-bmbarga/libcalico-go/lib/net.IPNet", "github.com/bw-bmbarga/libcalico-go/lib/net.MAC"},
 	}
 }
 
@@ -2081,14 +2081,14 @@ func schema_libcalico_go_lib_apis_v3_BGPConfiguration(ref common.ReferenceCallba
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the BGPConfiguration.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfigurationSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfigurationSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfigurationSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfigurationSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2126,7 +2126,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationList(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfiguration"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfiguration"),
 									},
 								},
 							},
@@ -2137,7 +2137,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationList(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPConfiguration", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPConfiguration", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2177,7 +2177,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceLoadBalancerIPBlock"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceLoadBalancerIPBlock"),
 									},
 								},
 							},
@@ -2191,7 +2191,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceExternalIPBlock"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceExternalIPBlock"),
 									},
 								},
 							},
@@ -2205,7 +2205,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceClusterIPBlock"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceClusterIPBlock"),
 									},
 								},
 							},
@@ -2219,7 +2219,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Community"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Community"),
 									},
 								},
 							},
@@ -2233,7 +2233,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.PrefixAdvertisement"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.PrefixAdvertisement"),
 									},
 								},
 							},
@@ -2250,7 +2250,7 @@ func schema_libcalico_go_lib_apis_v3_BGPConfigurationSpec(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.Community", "github.com/projectcalico/libcalico-go/lib/apis/v3.PrefixAdvertisement", "github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceClusterIPBlock", "github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceExternalIPBlock", "github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceLoadBalancerIPBlock"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Community", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.PrefixAdvertisement", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceClusterIPBlock", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceExternalIPBlock", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceLoadBalancerIPBlock"},
 	}
 }
 
@@ -2307,14 +2307,14 @@ func schema_libcalico_go_lib_apis_v3_BGPPeer(ref common.ReferenceCallback) commo
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the BGPPeer.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeerSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeerSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeerSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeerSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2352,7 +2352,7 @@ func schema_libcalico_go_lib_apis_v3_BGPPeerList(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeer"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeer"),
 									},
 								},
 							},
@@ -2363,7 +2363,7 @@ func schema_libcalico_go_lib_apis_v3_BGPPeerList(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPeer", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPeer", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2419,7 +2419,7 @@ func schema_libcalico_go_lib_apis_v3_BGPPeerSpec(ref common.ReferenceCallback) c
 					"password": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Optional BGP password for the peerings generated by this BGPPeer resource.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPassword"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPassword"),
 						},
 					},
 					"sourceAddress": {
@@ -2433,7 +2433,7 @@ func schema_libcalico_go_lib_apis_v3_BGPPeerSpec(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BGPPassword"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BGPPassword"},
 	}
 }
 
@@ -2469,14 +2469,14 @@ func schema_libcalico_go_lib_apis_v3_BlockAffinity(ref common.ReferenceCallback)
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the BlockAffinity.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinitySpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinitySpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinitySpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinitySpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2514,7 +2514,7 @@ func schema_libcalico_go_lib_apis_v3_BlockAffinityList(ref common.ReferenceCallb
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinity"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinity"),
 									},
 								},
 							},
@@ -2525,7 +2525,7 @@ func schema_libcalico_go_lib_apis_v3_BlockAffinityList(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.BlockAffinity", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.BlockAffinity", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2604,14 +2604,14 @@ func schema_libcalico_go_lib_apis_v3_ClusterInformation(ref common.ReferenceCall
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the ClusterInformation.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformationSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformationSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformationSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformationSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2649,7 +2649,7 @@ func schema_libcalico_go_lib_apis_v3_ClusterInformationList(ref common.Reference
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformation"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformation"),
 									},
 								},
 							},
@@ -2660,7 +2660,7 @@ func schema_libcalico_go_lib_apis_v3_ClusterInformationList(ref common.Reference
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.ClusterInformation", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ClusterInformation", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -2749,38 +2749,38 @@ func schema_libcalico_go_lib_apis_v3_ControllersConfig(ref common.ReferenceCallb
 					"node": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Node enables and configures the node controller. Enabled by default, set to nil to disable.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NodeControllerConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeControllerConfig"),
 						},
 					},
 					"policy": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Policy enables and configures the policy controller. Enabled by default, set to nil to disable.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.PolicyControllerConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.PolicyControllerConfig"),
 						},
 					},
 					"workloadEndpoint": {
 						SchemaProps: spec.SchemaProps{
 							Description: "WorkloadEndpoint enables and configures the workload endpoint controller. Enabled by default, set to nil to disable.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointControllerConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointControllerConfig"),
 						},
 					},
 					"serviceAccount": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ServiceAccount enables and configures the service account controller. Enabled by default, set to nil to disable.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceAccountControllerConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceAccountControllerConfig"),
 						},
 					},
 					"namespace": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Namespace enables and configures the namespace controller. Enabled by default, set to nil to disable.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NamespaceControllerConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NamespaceControllerConfig"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NamespaceControllerConfig", "github.com/projectcalico/libcalico-go/lib/apis/v3.NodeControllerConfig", "github.com/projectcalico/libcalico-go/lib/apis/v3.PolicyControllerConfig", "github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceAccountControllerConfig", "github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointControllerConfig"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NamespaceControllerConfig", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeControllerConfig", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.PolicyControllerConfig", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceAccountControllerConfig", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointControllerConfig"},
 	}
 }
 
@@ -2800,7 +2800,7 @@ func schema_libcalico_go_lib_apis_v3_EndpointPort(ref common.ReferenceCallback) 
 					"protocol": {
 						SchemaProps: spec.SchemaProps{
 							Default: map[string]interface{}{},
-							Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"),
+							Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"),
 						},
 					},
 					"port": {
@@ -2815,7 +2815,7 @@ func schema_libcalico_go_lib_apis_v3_EndpointPort(ref common.ReferenceCallback) 
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"},
+			"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"},
 	}
 }
 
@@ -2863,7 +2863,7 @@ func schema_libcalico_go_lib_apis_v3_EntityRule(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Port"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"),
 									},
 								},
 							},
@@ -2899,7 +2899,7 @@ func schema_libcalico_go_lib_apis_v3_EntityRule(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Port"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"),
 									},
 								},
 							},
@@ -2908,14 +2908,14 @@ func schema_libcalico_go_lib_apis_v3_EntityRule(ref common.ReferenceCallback) co
 					"serviceAccounts": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ServiceAccounts is an optional field that restricts the rule to only apply to traffic that originates from (or terminates at) a pod running as a matching service account.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceAccountMatch"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceAccountMatch"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.ServiceAccountMatch", "github.com/projectcalico/libcalico-go/lib/numorstring.Port"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ServiceAccountMatch", "github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"},
 	}
 }
 
@@ -2951,14 +2951,14 @@ func schema_libcalico_go_lib_apis_v3_FelixConfiguration(ref common.ReferenceCall
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the FelixConfiguration.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfigurationSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfigurationSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfigurationSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfigurationSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -2996,7 +2996,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationList(ref common.Reference
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfiguration"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfiguration"),
 									},
 								},
 							},
@@ -3007,7 +3007,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationList(ref common.Reference
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.FelixConfiguration", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.FelixConfiguration", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -3361,7 +3361,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref common.Reference
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ProtoPort"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProtoPort"),
 									},
 								},
 							},
@@ -3375,7 +3375,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref common.Reference
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ProtoPort"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProtoPort"),
 									},
 								},
 							},
@@ -3389,7 +3389,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref common.Reference
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/numorstring.Port"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"),
 									},
 								},
 							},
@@ -3424,7 +3424,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref common.Reference
 					"natPortRange": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NATPortRange specifies the range of ports that is used for port mapping when doing outgoing NAT. When unset the default behavior of the network stack is used.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/numorstring.Port"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port"),
 						},
 					},
 					"natOutgoingAddress": {
@@ -3599,7 +3599,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref common.Reference
 					"routeTableRange": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Calico programs additional Linux route tables for various purposes.  RouteTableRange specifies the indices of the route tables that Calico should use.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.RouteTableRange"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.RouteTableRange"),
 						},
 					},
 					"wireguardEnabled": {
@@ -3662,7 +3662,7 @@ func schema_libcalico_go_lib_apis_v3_FelixConfigurationSpec(ref common.Reference
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.ProtoPort", "github.com/projectcalico/libcalico-go/lib/apis/v3.RouteTableRange", "github.com/projectcalico/libcalico-go/lib/numorstring.Port", "k8s.io/apimachinery/pkg/apis/meta/v1.Duration"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProtoPort", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.RouteTableRange", "github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port", "k8s.io/apimachinery/pkg/apis/meta/v1.Duration"},
 	}
 }
 
@@ -3698,14 +3698,14 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicy(ref common.ReferenceCal
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the Policy.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicySpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicySpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicySpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicySpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -3743,7 +3743,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicyList(ref common.Referenc
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicy"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicy"),
 									},
 								},
 							},
@@ -3754,7 +3754,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicyList(ref common.Referenc
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkPolicy", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkPolicy", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -3779,7 +3779,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicySpec(ref common.Referenc
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"),
 									},
 								},
 							},
@@ -3793,7 +3793,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicySpec(ref common.Referenc
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"),
 									},
 								},
 							},
@@ -3860,7 +3860,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkPolicySpec(ref common.Referenc
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"},
 	}
 }
 
@@ -3896,14 +3896,14 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkSet(ref common.ReferenceCallba
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the NetworkSet.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSetSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSetSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSetSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSetSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -3941,7 +3941,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkSetList(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSet"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSet"),
 									},
 								},
 							},
@@ -3952,7 +3952,7 @@ func schema_libcalico_go_lib_apis_v3_GlobalNetworkSetList(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.GlobalNetworkSet", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.GlobalNetworkSet", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -4014,7 +4014,7 @@ func schema_libcalico_go_lib_apis_v3_HTTPMatch(ref common.ReferenceCallback) com
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.HTTPPath"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HTTPPath"),
 									},
 								},
 							},
@@ -4024,7 +4024,7 @@ func schema_libcalico_go_lib_apis_v3_HTTPMatch(ref common.ReferenceCallback) com
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.HTTPPath"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HTTPPath"},
 	}
 }
 
@@ -4085,14 +4085,14 @@ func schema_libcalico_go_lib_apis_v3_HostEndpoint(ref common.ReferenceCallback) 
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the HostEndpoint.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpointSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpointSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpointSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpointSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -4130,7 +4130,7 @@ func schema_libcalico_go_lib_apis_v3_HostEndpointList(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpoint"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpoint"),
 									},
 								},
 							},
@@ -4141,7 +4141,7 @@ func schema_libcalico_go_lib_apis_v3_HostEndpointList(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.HostEndpoint", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HostEndpoint", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -4204,7 +4204,7 @@ func schema_libcalico_go_lib_apis_v3_HostEndpointSpec(ref common.ReferenceCallba
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.EndpointPort"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EndpointPort"),
 									},
 								},
 							},
@@ -4214,7 +4214,7 @@ func schema_libcalico_go_lib_apis_v3_HostEndpointSpec(ref common.ReferenceCallba
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.EndpointPort"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EndpointPort"},
 	}
 }
 
@@ -4277,14 +4277,14 @@ func schema_libcalico_go_lib_apis_v3_IPAMBlock(ref common.ReferenceCallback) com
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the IPAMBlock.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlockSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlockSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlockSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlockSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -4322,7 +4322,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMBlockList(ref common.ReferenceCallback)
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlock"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlock"),
 									},
 								},
 							},
@@ -4333,7 +4333,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMBlockList(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMBlock", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMBlock", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -4398,7 +4398,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMBlockSpec(ref common.ReferenceCallback)
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.AllocationAttribute"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.AllocationAttribute"),
 									},
 								},
 							},
@@ -4416,7 +4416,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMBlockSpec(ref common.ReferenceCallback)
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.AllocationAttribute"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.AllocationAttribute"},
 	}
 }
 
@@ -4452,14 +4452,14 @@ func schema_libcalico_go_lib_apis_v3_IPAMConfig(ref common.ReferenceCallback) co
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the IPAMConfig.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfigSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfigSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfigSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfigSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -4497,7 +4497,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMConfigList(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfig"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfig"),
 									},
 								},
 							},
@@ -4508,7 +4508,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMConfigList(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMConfig", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMConfig", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -4579,14 +4579,14 @@ func schema_libcalico_go_lib_apis_v3_IPAMHandle(ref common.ReferenceCallback) co
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the IPAMHandle.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandleSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandleSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandleSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandleSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -4624,7 +4624,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMHandleList(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandle"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandle"),
 									},
 								},
 							},
@@ -4635,7 +4635,7 @@ func schema_libcalico_go_lib_apis_v3_IPAMHandleList(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPAMHandle", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPAMHandle", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -4744,14 +4744,14 @@ func schema_libcalico_go_lib_apis_v3_IPPool(ref common.ReferenceCallback) common
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the IPPool.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPPoolSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPoolSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPPoolSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPoolSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -4789,7 +4789,7 @@ func schema_libcalico_go_lib_apis_v3_IPPoolList(ref common.ReferenceCallback) co
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPPool"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPool"),
 									},
 								},
 							},
@@ -4800,7 +4800,7 @@ func schema_libcalico_go_lib_apis_v3_IPPoolList(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.IPPool", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPPool", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -4864,7 +4864,7 @@ func schema_libcalico_go_lib_apis_v3_IPPoolSpec(ref common.ReferenceCallback) co
 					"ipip": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Deprecated: this field is only used for APIv1 backwards compatibility. Setting this field is not allowed, this field is for internal use only.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v1.IPIPConfiguration"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPIPConfiguration"),
 						},
 					},
 					"nat-outgoing": {
@@ -4879,7 +4879,7 @@ func schema_libcalico_go_lib_apis_v3_IPPoolSpec(ref common.ReferenceCallback) co
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v1.IPIPConfiguration"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v1.IPIPConfiguration"},
 	}
 }
 
@@ -4915,21 +4915,21 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfiguration(ref common.Ref
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the KubeControllersConfiguration.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Status of the KubeControllersConfiguration",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationStatus"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec", "github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -4967,7 +4967,7 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationList(ref common
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfiguration"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfiguration"),
 									},
 								},
 							},
@@ -4978,7 +4978,7 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationList(ref common
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfiguration", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfiguration", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -5020,7 +5020,7 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationSpec(ref common
 						SchemaProps: spec.SchemaProps{
 							Description: "Controllers enables and configures individual Kubernetes controllers",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ControllersConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ControllersConfig"),
 						},
 					},
 				},
@@ -5028,7 +5028,7 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationSpec(ref common
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.ControllersConfig", "k8s.io/apimachinery/pkg/apis/meta/v1.Duration"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ControllersConfig", "k8s.io/apimachinery/pkg/apis/meta/v1.Duration"},
 	}
 }
 
@@ -5043,7 +5043,7 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationStatus(ref comm
 						SchemaProps: spec.SchemaProps{
 							Description: "RunningConfig contains the effective config that is running in the kube-controllers pod, after merging the API resource with any environment variables.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec"),
 						},
 					},
 					"environmentVars": {
@@ -5066,7 +5066,7 @@ func schema_libcalico_go_lib_apis_v3_KubeControllersConfigurationStatus(ref comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.KubeControllersConfigurationSpec"},
 	}
 }
 
@@ -5123,14 +5123,14 @@ func schema_libcalico_go_lib_apis_v3_NetworkPolicy(ref common.ReferenceCallback)
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the Policy.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicySpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicySpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicySpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicySpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -5168,7 +5168,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkPolicyList(ref common.ReferenceCallb
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicy"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicy"),
 									},
 								},
 							},
@@ -5179,7 +5179,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkPolicyList(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkPolicy", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkPolicy", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -5204,7 +5204,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkPolicySpec(ref common.ReferenceCallb
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"),
 									},
 								},
 							},
@@ -5218,7 +5218,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkPolicySpec(ref common.ReferenceCallb
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"),
 									},
 								},
 							},
@@ -5257,7 +5257,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkPolicySpec(ref common.ReferenceCallb
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"},
 	}
 }
 
@@ -5293,14 +5293,14 @@ func schema_libcalico_go_lib_apis_v3_NetworkSet(ref common.ReferenceCallback) co
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the NetworkSet.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSetSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSetSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSetSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSetSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -5338,7 +5338,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkSetList(ref common.ReferenceCallback
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSet"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSet"),
 									},
 								},
 							},
@@ -5349,7 +5349,7 @@ func schema_libcalico_go_lib_apis_v3_NetworkSetList(ref common.ReferenceCallback
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NetworkSet", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NetworkSet", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -5413,21 +5413,21 @@ func schema_libcalico_go_lib_apis_v3_Node(ref common.ReferenceCallback) common.O
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the Node.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NodeSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Status of the Node.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NodeStatus"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeSpec", "github.com/projectcalico/libcalico-go/lib/apis/v3.NodeStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -5531,14 +5531,14 @@ func schema_libcalico_go_lib_apis_v3_NodeControllerConfig(ref common.ReferenceCa
 					"hostEndpoint": {
 						SchemaProps: spec.SchemaProps{
 							Description: "HostEndpoint controls syncing nodes to host endpoints. Disabled by default, set to nil to disable.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.AutoHostEndpointConfig"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.AutoHostEndpointConfig"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.AutoHostEndpointConfig", "k8s.io/apimachinery/pkg/apis/meta/v1.Duration"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.AutoHostEndpointConfig", "k8s.io/apimachinery/pkg/apis/meta/v1.Duration"},
 	}
 }
 
@@ -5576,7 +5576,7 @@ func schema_libcalico_go_lib_apis_v3_NodeList(ref common.ReferenceCallback) comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Node"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Node"),
 									},
 								},
 							},
@@ -5587,7 +5587,7 @@ func schema_libcalico_go_lib_apis_v3_NodeList(ref common.ReferenceCallback) comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.Node", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Node", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -5601,7 +5601,7 @@ func schema_libcalico_go_lib_apis_v3_NodeSpec(ref common.ReferenceCallback) comm
 					"bgp": {
 						SchemaProps: spec.SchemaProps{
 							Description: "BGP configuration for this node.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NodeBGPSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeBGPSpec"),
 						},
 					},
 					"ipv4VXLANTunnelAddr": {
@@ -5626,7 +5626,7 @@ func schema_libcalico_go_lib_apis_v3_NodeSpec(ref common.ReferenceCallback) comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.OrchRef"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.OrchRef"),
 									},
 								},
 							},
@@ -5635,7 +5635,7 @@ func schema_libcalico_go_lib_apis_v3_NodeSpec(ref common.ReferenceCallback) comm
 					"wireguard": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Wireguard configuration for this node.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NodeWireguardSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeWireguardSpec"),
 						},
 					},
 					"addresses": {
@@ -5646,7 +5646,7 @@ func schema_libcalico_go_lib_apis_v3_NodeSpec(ref common.ReferenceCallback) comm
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.NodeAddress"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeAddress"),
 									},
 								},
 							},
@@ -5656,7 +5656,7 @@ func schema_libcalico_go_lib_apis_v3_NodeSpec(ref common.ReferenceCallback) comm
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.NodeAddress", "github.com/projectcalico/libcalico-go/lib/apis/v3.NodeBGPSpec", "github.com/projectcalico/libcalico-go/lib/apis/v3.NodeWireguardSpec", "github.com/projectcalico/libcalico-go/lib/apis/v3.OrchRef"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeAddress", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeBGPSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.NodeWireguardSpec", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.OrchRef"},
 	}
 }
 
@@ -5831,14 +5831,14 @@ func schema_libcalico_go_lib_apis_v3_Profile(ref common.ReferenceCallback) commo
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the Profile.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ProfileSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProfileSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.ProfileSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ProfileSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -5876,7 +5876,7 @@ func schema_libcalico_go_lib_apis_v3_ProfileList(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Profile"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Profile"),
 									},
 								},
 							},
@@ -5887,7 +5887,7 @@ func schema_libcalico_go_lib_apis_v3_ProfileList(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.Profile", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Profile", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -5906,7 +5906,7 @@ func schema_libcalico_go_lib_apis_v3_ProfileSpec(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"),
 									},
 								},
 							},
@@ -5920,7 +5920,7 @@ func schema_libcalico_go_lib_apis_v3_ProfileSpec(ref common.ReferenceCallback) c
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"),
 									},
 								},
 							},
@@ -5946,7 +5946,7 @@ func schema_libcalico_go_lib_apis_v3_ProfileSpec(ref common.ReferenceCallback) c
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.Rule"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.Rule"},
 	}
 }
 
@@ -6036,51 +6036,51 @@ func schema_libcalico_go_lib_apis_v3_Rule(ref common.ReferenceCallback) common.O
 					"protocol": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Protocol is an optional field that restricts the rule to only apply to traffic of a specific IP protocol. Required if any of the EntityRules contain Ports (because ports only apply to certain protocols).\n\nMust be one of these string values: \"TCP\", \"UDP\", \"ICMP\", \"ICMPv6\", \"SCTP\", \"UDPLite\" or an integer in the range 1-255.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"),
 						},
 					},
 					"icmp": {
 						SchemaProps: spec.SchemaProps{
 							Description: "ICMP is an optional field that restricts the rule to apply to a specific type and code of ICMP traffic.  This should only be specified if the Protocol field is set to \"ICMP\" or \"ICMPv6\".",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ICMPFields"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ICMPFields"),
 						},
 					},
 					"notProtocol": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NotProtocol is the negated version of the Protocol field.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"),
 						},
 					},
 					"notICMP": {
 						SchemaProps: spec.SchemaProps{
 							Description: "NotICMP is the negated version of the ICMP field.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.ICMPFields"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ICMPFields"),
 						},
 					},
 					"source": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Source contains the match criteria that apply to source entity.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.EntityRule"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EntityRule"),
 						},
 					},
 					"destination": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Destination contains the match criteria that apply to destination entity.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.EntityRule"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EntityRule"),
 						},
 					},
 					"http": {
 						SchemaProps: spec.SchemaProps{
 							Description: "HTTP contains match criteria that apply to HTTP requests.",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.HTTPMatch"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HTTPMatch"),
 						},
 					},
 					"metadata": {
 						SchemaProps: spec.SchemaProps{
 							Description: "Metadata contains additional information for this rule",
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.RuleMetadata"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.RuleMetadata"),
 						},
 					},
 				},
@@ -6088,7 +6088,7 @@ func schema_libcalico_go_lib_apis_v3_Rule(ref common.ReferenceCallback) common.O
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.EntityRule", "github.com/projectcalico/libcalico-go/lib/apis/v3.HTTPMatch", "github.com/projectcalico/libcalico-go/lib/apis/v3.ICMPFields", "github.com/projectcalico/libcalico-go/lib/apis/v3.RuleMetadata", "github.com/projectcalico/libcalico-go/lib/numorstring.Protocol"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EntityRule", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.HTTPMatch", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.ICMPFields", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.RuleMetadata", "github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol"},
 	}
 }
 
@@ -6264,14 +6264,14 @@ func schema_libcalico_go_lib_apis_v3_WorkloadEndpoint(ref common.ReferenceCallba
 						SchemaProps: spec.SchemaProps{
 							Description: "Specification of the WorkloadEndpoint.",
 							Default:     map[string]interface{}{},
-							Ref:         ref("github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointSpec"),
+							Ref:         ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointSpec"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpointSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpointSpec", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -6330,7 +6330,7 @@ func schema_libcalico_go_lib_apis_v3_WorkloadEndpointList(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpoint"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpoint"),
 									},
 								},
 							},
@@ -6341,7 +6341,7 @@ func schema_libcalico_go_lib_apis_v3_WorkloadEndpointList(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.WorkloadEndpoint", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.WorkloadEndpoint", "k8s.io/apimachinery/pkg/apis/meta/v1.ListMeta"},
 	}
 }
 
@@ -6424,7 +6424,7 @@ func schema_libcalico_go_lib_apis_v3_WorkloadEndpointSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.IPNAT"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPNAT"),
 									},
 								},
 							},
@@ -6481,7 +6481,7 @@ func schema_libcalico_go_lib_apis_v3_WorkloadEndpointSpec(ref common.ReferenceCa
 								Schema: &spec.Schema{
 									SchemaProps: spec.SchemaProps{
 										Default: map[string]interface{}{},
-										Ref:     ref("github.com/projectcalico/libcalico-go/lib/apis/v3.EndpointPort"),
+										Ref:     ref("github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EndpointPort"),
 									},
 								},
 							},
@@ -6491,7 +6491,7 @@ func schema_libcalico_go_lib_apis_v3_WorkloadEndpointSpec(ref common.ReferenceCa
 			},
 		},
 		Dependencies: []string{
-			"github.com/projectcalico/libcalico-go/lib/apis/v3.EndpointPort", "github.com/projectcalico/libcalico-go/lib/apis/v3.IPNAT"},
+			"github.com/bw-bmbarga/libcalico-go/lib/apis/v3.EndpointPort", "github.com/bw-bmbarga/libcalico-go/lib/apis/v3.IPNAT"},
 	}
 }
 

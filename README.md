@@ -1,8 +1,8 @@
 [![Build Status](https://semaphoreci.com/api/v1/calico/libcalico-go/branches/master/shields_badge.svg)](https://semaphoreci.com/calico/libcalico-go)
 [![Slack Status](https://slack.projectcalico.org/badge.svg)](https://slack.projectcalico.org)
 [![IRC Channel](https://img.shields.io/badge/irc-%23calico-blue.svg)](https://kiwiirc.com/client/irc.freenode.net/#calico) [
-![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/projectcalico/libcalico-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/projectcalico/libcalico-go)](https://goreportcard.com/report/github.com/projectcalico/libcalico-go)
+![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/bw-bmbarga/libcalico-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bw-bmbarga/libcalico-go)](https://goreportcard.com/report/github.com/bw-bmbarga/libcalico-go)
 
 # libcalico-go
 <img src="http://docs.projectcalico.org/images/felix.png" width="100" height="100">
@@ -33,6 +33,6 @@ If you wish to use libcalico for integrating with Calico networking and
 policy, the main entry point to managing Calico configuration is through
 the client.
 
--  Documentation for the client is in [lib/client GoDoc](https://godoc.org/github.com/projectcalico/libcalico-go/lib/client).
--  The resource structure definitions are defined in [lib/apis](https://godoc.org/github.com/projectcalico/libcalico-go/lib/apis), this
+-  Documentation for the client is in [lib/client GoDoc](https://godoc.org/github.com/bw-bmbarga/libcalico-go/lib/client).
+-  The resource structure definitions are defined in [lib/apis](https://godoc.org/github.com/bw-bmbarga/libcalico-go/lib/apis), this
    includes detailed per-resource and per-field level descriptions.

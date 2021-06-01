@@ -22,7 +22,7 @@ import (
 
 	"github.com/onsi/ginkgo/reporters"
 
-	"github.com/projectcalico/libcalico-go/lib/testutils"
+	"github.com/bw-bmbarga/libcalico-go/lib/testutils"
 )
 
 func TestBackend(t *testing.T) {

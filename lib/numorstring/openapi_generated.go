@@ -27,9 +27,9 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/projectcalico/libcalico-go/lib/numorstring.Port":          schema_projectcalico_libcalico_go_lib_numorstring_Port(ref),
-		"github.com/projectcalico/libcalico-go/lib/numorstring.Protocol":      schema_projectcalico_libcalico_go_lib_numorstring_Protocol(ref),
-		"github.com/projectcalico/libcalico-go/lib/numorstring.Uint8OrString": schema_projectcalico_libcalico_go_lib_numorstring_Uint8OrString(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Port":          schema_projectcalico_libcalico_go_lib_numorstring_Port(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Protocol":      schema_projectcalico_libcalico_go_lib_numorstring_Protocol(ref),
+		"github.com/bw-bmbarga/libcalico-go/lib/numorstring.Uint8OrString": schema_projectcalico_libcalico_go_lib_numorstring_Uint8OrString(ref),
 	}
 }
 

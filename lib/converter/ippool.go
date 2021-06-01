@@ -15,10 +15,10 @@
 package converter
 
 import (
-	api "github.com/projectcalico/libcalico-go/lib/apis/v1"
-	"github.com/projectcalico/libcalico-go/lib/apis/v1/unversioned"
-	"github.com/projectcalico/libcalico-go/lib/backend/encap"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
+	api "github.com/bw-bmbarga/libcalico-go/lib/apis/v1"
+	"github.com/bw-bmbarga/libcalico-go/lib/apis/v1/unversioned"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/encap"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
 )
 
 // IPPoolConverter implements a set of functions used for converting between

@@ -29,12 +29,12 @@ import (
 
 	wireguard "golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	api "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/errors"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
-	"github.com/projectcalico/libcalico-go/lib/numorstring"
-	"github.com/projectcalico/libcalico-go/lib/selector"
-	"github.com/projectcalico/libcalico-go/lib/set"
+	api "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/errors"
+	cnet "github.com/bw-bmbarga/libcalico-go/lib/net"
+	"github.com/bw-bmbarga/libcalico-go/lib/numorstring"
+	"github.com/bw-bmbarga/libcalico-go/lib/selector"
+	"github.com/bw-bmbarga/libcalico-go/lib/set"
 )
 
 var validate *validator.Validate

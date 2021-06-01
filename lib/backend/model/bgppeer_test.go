@@ -20,8 +20,8 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	. "github.com/projectcalico/libcalico-go/lib/backend/model"
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
+	. "github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	cnet "github.com/bw-bmbarga/libcalico-go/lib/net"
 )
 
 var _ = DescribeTable(

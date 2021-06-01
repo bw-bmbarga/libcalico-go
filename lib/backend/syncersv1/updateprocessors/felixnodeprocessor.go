@@ -20,14 +20,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	"github.com/projectcalico/libcalico-go/lib/backend/model"
-	"github.com/projectcalico/libcalico-go/lib/backend/watchersyncer"
-	cresources "github.com/projectcalico/libcalico-go/lib/resources"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/model"
+	"github.com/bw-bmbarga/libcalico-go/lib/backend/watchersyncer"
+	cresources "github.com/bw-bmbarga/libcalico-go/lib/resources"
 
 	wg "golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	cnet "github.com/projectcalico/libcalico-go/lib/net"
+	cnet "github.com/bw-bmbarga/libcalico-go/lib/net"
 )
 
 // Create a new SyncerUpdateProcessor to sync Node data in v1 format for

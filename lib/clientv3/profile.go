@@ -18,12 +18,12 @@ import (
 	"context"
 	"fmt"
 
-	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
-	cerrors "github.com/projectcalico/libcalico-go/lib/errors"
-	"github.com/projectcalico/libcalico-go/lib/options"
-	cresources "github.com/projectcalico/libcalico-go/lib/resources"
-	validator "github.com/projectcalico/libcalico-go/lib/validator/v3"
-	"github.com/projectcalico/libcalico-go/lib/watch"
+	apiv3 "github.com/bw-bmbarga/libcalico-go/lib/apis/v3"
+	cerrors "github.com/bw-bmbarga/libcalico-go/lib/errors"
+	"github.com/bw-bmbarga/libcalico-go/lib/options"
+	cresources "github.com/bw-bmbarga/libcalico-go/lib/resources"
+	validator "github.com/bw-bmbarga/libcalico-go/lib/validator/v3"
+	"github.com/bw-bmbarga/libcalico-go/lib/watch"
 )
 
 // ProfileInterface has methods to work with Profile resources.
